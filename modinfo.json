@@ -1,0 +1,20 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "magiclysm_increased_building_spawnrate",
+    "name": "Magiclysm Increased Building Spawnrate",
+    "authors": [ "Lightwave" ],
+    "description": "Makes existing Magiclysm builsings spawn much more often.",
+    "category": "rebalance",
+    "dependencies": [ "dda", "magiclysm" ]
+  },
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "city": {
+      "houses": { "house_technomancer": 200, "wizard_tower_1": 10, "wizard_tower_2": 200 },
+      "shops": { "magic_shop": 1000, "used_bookstore": 2250, "magic_academy": 1500 }
+    },
+    "field_coverage": { "other": { "f_boulder_large": 0.8, "f_glow_boulder": 0.2 } }
+  }
+]
